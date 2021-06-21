@@ -1,3 +1,2 @@
 # NewDesign
-my new personal page design
-this is my personal Webpage structure you can use it if you want .
+this is my personal Webpage structure you can use it if you want (tested in firefox , not good at chrome and the rest tho ...).
