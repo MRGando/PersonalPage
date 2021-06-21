@@ -131,12 +131,21 @@ setInterval(() => {
 }, 100);
 radio_1.addEventListener("click",function(){
    brand.innerHTML = "✌️Reza K.";
+   home.classList.add("active");
+          cv.classList.remove("active");
+          touch.classList.remove("active");
 });
 radio_2.addEventListener("click",function(){
    brand.innerHTML = "✍️ CV";
+   cv.classList.add("active");
+          home.classList.remove("active");
+          touch.classList.remove("active");
 });
 radio_3.addEventListener("click",function(){
    brand.innerHTML = "🤙 Contact";
+   touch.classList.add("active");
+          cv.classList.remove("active");
+          home.classList.remove("active");
 });
 //if scroll to bottom 
 window.onscroll = function(){
